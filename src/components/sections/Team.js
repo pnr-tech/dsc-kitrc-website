@@ -8,7 +8,7 @@ import { Section, Container } from '@components/global';
 const TEAM = [
   {
     name: 'Nirali Patel',
-    image: 'lisa.jpg',
+    image: 'nirali.jpeg',
     role: 'Faculty Co-ordinator',
   },
    {

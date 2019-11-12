@@ -1,7 +1,6 @@
 const path = require('path');
 
 module.exports = {
-  pathPrefix: "/dsc-kitrc-website",
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-svgr`,
