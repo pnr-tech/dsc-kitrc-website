@@ -9,27 +9,27 @@ This Website is develop using GatsbyJS and deployed on Netlify.   [![Netlify Sta
 
 ### Clone The Repo using the following command:
 
-    `git clone https://github.com/kalol-institute-of-technology/dsc-kitrc-website`
+    git clone https://github.com/kalol-institute-of-technology/dsc-kitrc-website
     
 ### Change Directory:
   
-    `cd dsc-kitrc-website`
+    cd dsc-kitrc-website
     
 ### Install the dependencies:
 
-    `yarn install`
+    yarn install
 
 ### Run the development server:
 
-    `yarn dev`
+    yarn dev
 
 ### Production build to `/public`:
 
-    `yarn build`
+    yarn build
 
 ### Cleanup cache (often fixes misc errors when run before `yarn dev`):
 
-    `yarn clean`
+    yarn clean
 
 ## Content
 
