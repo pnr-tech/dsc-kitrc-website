@@ -3,7 +3,7 @@
 ![DSC-Fullname](https://user-images.githubusercontent.com/41849970/68694056-72f74200-059e-11ea-85fe-76b37be8e5d5.png)
 
 
-This Website is develop using GatsbyJS and deployed on Netlify.   [![Netlify Status](https://api.netlify.com/api/v1/badges/01d5b321-ca03-4eb0-b326-c2afa8f159c9/deploy-status)](https://app.netlify.com/sites/dsckitrc/deploys)
+This Website is developed using GatsbyJS and deployed on Netlify.   [![Netlify Status](https://api.netlify.com/api/v1/badges/01d5b321-ca03-4eb0-b326-c2afa8f159c9/deploy-status)](https://app.netlify.com/sites/dsckitrc/deploys)
 
 ## Want To Contribute, Here's How to do it:
 
