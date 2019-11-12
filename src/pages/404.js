@@ -2,6 +2,7 @@ import React from 'react';
 
 import Layout from '@common/Layout';
 import { Container } from '@components/global';
+import { Link } from 'gatsby';
 
 const NotFoundPage = () => (
   <Layout>
