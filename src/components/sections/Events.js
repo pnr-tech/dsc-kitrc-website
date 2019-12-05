@@ -14,7 +14,7 @@ const EVENTS = [
     location: "Online Workshop",
     time: "Evening",
     formlink: "http://bit.ly/crio-kitrc",
-    image: 'KITRC-social.png',
+    image: 'crio_do.png',
   },
   {
     name: "Flutter Interact Extended",
