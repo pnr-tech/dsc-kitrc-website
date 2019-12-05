@@ -8,6 +8,15 @@ import ExternalLink from '@common/ExternalLink';
 
 const EVENTS = [
   {
+    name: "Crio Launch Weekend Workshop",
+    description: "Crio.Do and DSC KITRC are thrilled to introduce a one-of-a-kind online workshop, on 14th and 15th December, where you can experience what it takes to build real products features in a work-like environment, and learn key programming & software engineering concepts along the way.This is a completely online workshop where you would be given a fully provisioned dev environment, via our platform, on which you will work. You will have access to our mentors via Slack. Stand Up’s, Debriefs and Knowledge Sharing sessions will be conducted on Zoom. The workshop will be on Python, so basic Python knowledge is a pre-req.You will also get to interact with Ajay Ravindra, Founding Member of Crio.Do",
+    date: "Dec 14 & 15, 2019",
+    location: "Online Workshop",
+    time: "Evening",
+    formlink: "http://bit.ly/crio-kitrc",
+    image: 'KITRC-social.png',
+  },
+  {
     name: "Flutter Interact Extended",
     description: "A live viewing party for Flutter Interact, in this livestream Google will showcase the latest from Google Design and Flutter, Google’s free and open source UI toolkit to build beautiful, natively compiled applications for mobile, web, and desktop - all from a single codebase",
     date: "Dec 11, 2019",
