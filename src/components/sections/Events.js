@@ -90,7 +90,7 @@ const UsedBy = () => (
                             Register Here &#10138;
                         </StyledExternalLink> */}
                         <StyledExternalLink href={formlink}>
-                            Registeration Open Soon
+                            Register Here
                         </StyledExternalLink>
                         </h3>
 
