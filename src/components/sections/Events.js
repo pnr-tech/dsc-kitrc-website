@@ -8,7 +8,7 @@ import ExternalLink from '@common/ExternalLink';
 
 const EVENTS = [
   {
-    name: "Crio Launch Weekend Workshop",
+    name: "Intro to Open Source",
     description: "This is an offline hands-on workshop in which you will learn key concepts of Git and learn more about Github and how to use it for open source programming.You are also requested to bring your own laptop installed with Git.",
     date: "20th December, 2019",
     location: "K1-08 Lab, First Floor, KITRC",
