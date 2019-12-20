@@ -14,7 +14,7 @@ const EVENTS = [
     location: "Ganpat University, Mehsana",
     time: "10:00 AM",
     formlink: "https://mehdev.club/devloop/",
-    image: 'devloop.jpeg',
+    image: 'devloop.jpg',
     linkref: 'Learn More'
   },
 ];
