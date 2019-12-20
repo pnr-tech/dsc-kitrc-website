@@ -8,13 +8,14 @@ import ExternalLink from '@common/ExternalLink';
 
 const EVENTS = [
   {
-    name: "Intro to Open Source",
-    description: "This is an offline hands-on workshop in which you will learn key concepts of Git and learn more about Github and how to use it for open source programming.You are also requested to bring your own laptop installed with Git.",
-    date: "20th December, 2019",
-    location: "K1-08 Lab, First Floor, KITRC",
-    time: "11:30 AM",
-    formlink: "https://forms.gle/qSH2ZamVCjiZB8VC7",
-    image: 'opensource.png',
+    name: "Devloop",
+    description: "This is an event where all the developers come in a loop to share & explore knowledge sessions on tracks like web, mobile, AI/ML, cloud and many more! 🤩 We will share some problem statements on the day & will allow our attendees to share their innovative ideas & will help them work on it & will contribute towards open source.",
+    date: "4th January, 2020",
+    location: "Ganpat University, Mehsana",
+    time: "10:00 AM",
+    formlink: "https://mehdev.club/devloop/",
+    image: 'devloop.jpeg',
+    linkref: 'Learn More'
   },
 ];
 
@@ -53,7 +54,7 @@ const UsedBy = () => (
         <div>
             <h1>Upcoming Events</h1>
             
-            {EVENTS.map(({ name, description, date, location, formlink, time, image }) => {
+            {EVENTS.map(({ name, description, date, location, formlink, time, image, linkref }) => {
               const img = data.allFile.edges.find(
                 ({ node }) => node.relativePath === image
               ).node;
@@ -81,7 +82,7 @@ const UsedBy = () => (
                             Register Here &#10138;
                         </StyledExternalLink> */}
                         <StyledExternalLink href={formlink}>
-                            Register Here
+                            {linkref}
                         </StyledExternalLink>
                         </h3>
 
