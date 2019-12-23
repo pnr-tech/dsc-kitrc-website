@@ -13,7 +13,8 @@ import WhatsappIcon from '@static/icons/whatsapp.svg';
 const SOCIAL = [
   {
     icon: GithubIcon,
-    link: 'https://github.com/orgs/kalol-institute-of-technology/teams/developer-student-clubs',
+    link:
+      'https://github.com/orgs/kalol-institute-of-technology/teams/developer-student-clubs',
   },
   {
     icon: InstagramIcon,

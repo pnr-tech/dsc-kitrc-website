@@ -11,31 +11,31 @@ const TEAM = [
     image: 'nirali.jpeg',
     role: 'Faculty Co-ordinator',
   },
-   {
-     name: 'Prajval Raval',
-     image: 'prajval.jpg',
-     role: 'DSC Lead',
-   },
-   {
-     name: 'Umesh Patel',
-     image: 'umesh.jpeg',
-     role: 'Core Team',
-   },
-   {
-     name: 'Milki Patel',
-     image: 'milki.jpg',
-     role: 'Core Team',
-   },
-   {
-     name: 'Darshil Shah',
-     image: 'darshil.jpeg',
-     role: 'Core Team',
-   },
-   {
-     name: 'Vaishnavi Shah',
-     image: 'vaishnavi.jpeg',
-     role: 'Core Team',
-   },
+  {
+    name: 'Prajval Raval',
+    image: 'prajval.jpg',
+    role: 'DSC Lead',
+  },
+  {
+    name: 'Umesh Patel',
+    image: 'umesh.jpeg',
+    role: 'Core Team',
+  },
+  {
+    name: 'Milki Patel',
+    image: 'milki.jpg',
+    role: 'Core Team',
+  },
+  {
+    name: 'Darshil Shah',
+    image: 'darshil.jpeg',
+    role: 'Core Team',
+  },
+  {
+    name: 'Vaishnavi Shah',
+    image: 'vaishnavi.jpeg',
+    role: 'Core Team',
+  },
 ];
 
 const Team = () => (
