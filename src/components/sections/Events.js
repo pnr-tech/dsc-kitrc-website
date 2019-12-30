@@ -8,14 +8,14 @@ import ExternalLink from '@common/ExternalLink';
 
 const EVENTS = [
   {
-    name: 'ExploreML Workshop',
+    name: 'Making Portfolio Site With Gatsbyjs',
     description:
-      "We’re excited to bring Google's Explore ML to our college. This program is intended for those who wish to learn ML from a practical, applied perspective that will enable them to use machine learning in their projects, and who wish to get started with the basics of ML. Program includes selected modules that introduce you to basic ML concepts. Our student facilitator will guide you through these modules’ content and activities as well as clarifying content you may have questions on.",
-    date: 'Friday, Dec 27th 2019',
+      "DSC KITRC is organising an offline workshop this Friday in which you will learn about GatsbyJS and its important features, you will also learn how to use those features to make your very own portfolio website.",
+    date: 'Friday, Jan 3rd 2020',
     location: 'K1-08 LAB, KITRC',
-    time: '9:30 AM',
-    formlink: 'https://forms.gle/R18LSZiNp7Z6Hrx97',
-    image: 'exploreml.png',
+    time: '11:00 AM',
+    formlink: 'https://forms.gle/ya8JpPkHNWumVupM8',
+    image: 'gatsby.png',
     linkref: 'Register Here',
   },
   {
