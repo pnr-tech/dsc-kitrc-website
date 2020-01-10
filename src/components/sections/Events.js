@@ -8,26 +8,15 @@ import ExternalLink from '@common/ExternalLink';
 
 const EVENTS = [
   {
-    name: 'Making Portfolio Site With Gatsbyjs',
+    name: 'Solution Design Day',
     description:
-      "DSC KITRC is organising an offline workshop this Friday in which you will learn about GatsbyJS and its important features, you will also learn how to use those features to make your very own portfolio website.",
-    date: 'Friday, Jan 3rd 2020',
+      'Interactive Workshop on Design, UX, Product Design and Technical Architecture',
+    date: '17th January, 2020',
     location: 'K1-08 LAB, KITRC',
-    time: '11:00 AM',
-    formlink: 'https://forms.gle/ya8JpPkHNWumVupM8',
-    image: 'gatsby.png',
+    time: '11:30 AM',
+    formlink: 'https://forms.gle/dV9vZkv5rT9aAKgQA',
+    image: 'sdd.png',
     linkref: 'Register Here',
-  },
-  {
-    name: 'Devloop',
-    description:
-      'This is an event where all the developers come in a loop to share & explore knowledge sessions on tracks like web, mobile, AI/ML, cloud and many more! 🤩 We will share some problem statements on the day & will allow our attendees to share their innovative ideas & will help them work on it & will contribute towards open source.',
-    date: '4th January, 2020',
-    location: 'Ganpat University, Mehsana',
-    time: '10:00 AM',
-    formlink: 'https://mehdev.club/devloop/',
-    image: 'devloop.png',
-    linkref: 'Learn More',
   },
 ];
 
