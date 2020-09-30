@@ -1,5 +1,7 @@
 # DEVELOPER STUDENT CLUBS - KITRC
 
+DSC KITRC
+
 ![DSC-Fullname](https://user-images.githubusercontent.com/41849970/68694056-72f74200-059e-11ea-85fe-76b37be8e5d5.png)
 
 
