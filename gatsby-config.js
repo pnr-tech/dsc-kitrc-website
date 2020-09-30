@@ -1,11 +1,16 @@
 const path = require('path');
 
 module.exports = {
-  pathPrefix: "/dsc-kitrc-website",
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-svgr`,
     `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-152556478-1',
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

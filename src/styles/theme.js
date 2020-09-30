@@ -22,7 +22,7 @@ const theme = {
     },
     primary: '#CEEAD6',
     whatsapp: '#25D366',
-    register: '#4285F4'
+    register: '#4285F4',
   },
   screen: {
     xs: '575px',

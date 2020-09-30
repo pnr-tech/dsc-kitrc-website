@@ -8,90 +8,100 @@ import ExternalLink from '@common/ExternalLink';
 
 const EVENTS = [
   {
-    name: "Flutter Interact Extended",
-    description: "A live viewing party for Flutter Interact, in this livestream Google will showcase the latest from Google Design and Flutter, Google’s free and open source UI toolkit to build beautiful, natively compiled applications for mobile, web, and desktop - all from a single codebase",
-    date: "Dec 11, 2019",
-    location: "TBA",
-    time: "TBA",
-    formlink: "#",
-    image: 'flutter.png',
+    name: 'Solution Design Day',
+    description:
+      'Interactive Workshop on Design, UX, Product Design and Technical Architecture',
+    date: '17th January, 2020',
+    location: 'K1-08 LAB, KITRC',
+    time: '11:30 AM',
+    formlink: 'https://forms.gle/dV9vZkv5rT9aAKgQA',
+    image: 'sdd.png',
+    linkref: 'Register Here',
   },
 ];
 
 const UsedBy = () => (
   <StaticQuery
-  query={graphql`
-  query {
-    allFile(filter: { sourceInstanceName: { eq: "events" } }) {
-      edges {
-        node {
-          relativePath
+    query={graphql`
+      query {
+        allFile(filter: { sourceInstanceName: { eq: "events" } }) {
+          edges {
+            node {
+              relativePath
+              childImageSharp {
+                fluid(maxWidth: 400, maxHeight: 400) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
+
+        art_team: file(
+          sourceInstanceName: { eq: "art" }
+          name: { eq: "team" }
+        ) {
           childImageSharp {
-            fluid(maxWidth: 400, maxHeight: 400) {
-              ...GatsbyImageSharpFluid
+            fluid(maxWidth: 1600) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
             }
           }
         }
       }
-    }
-    
-    art_team: file(
-      sourceInstanceName: { eq: "art" }
-      name: { eq: "team" }
-    ) {
-      childImageSharp {
-        fluid(maxWidth: 1600) {
-          ...GatsbyImageSharpFluid_withWebp_tracedSVG
-        }
-      }
-    }
-  }
-`}
+    `}
     render={data => (
       <Section id="events" accent>
         <StyledContainer>
-        <div>
+          <div>
             <h1>Upcoming Events</h1>
-            
-            {EVENTS.map(({ name, description, date, location, formlink, time, image }) => {
-              const img = data.allFile.edges.find(
-                ({ node }) => node.relativePath === image
-              ).node;
 
-              return (
-                <div key={name}>
-                  <Grid>
+            {EVENTS.map(
+              ({
+                name,
+                description,
+                date,
+                location,
+                formlink,
+                time,
+                image,
+                linkref,
+              }) => {
+                const img = data.allFile.edges.find(
+                  ({ node }) => node.relativePath === image
+                ).node;
+
+                return (
+                  <div key={name}>
+                    <Grid>
                       <Art>
-                          <Img fluid={img.childImageSharp.fluid} alt={name} />
+                        <Img fluid={img.childImageSharp.fluid} alt={name} />
                       </Art>
 
                       <div>
-                      
                         <h3>{name}</h3>
                         <p>{description}</p>
-                        <br></br>
+                        <br />
 
                         <p>Date: {date}</p>
                         <p>Location: {location}</p>
                         <p>Time: {time}</p>
-                        <br></br>
+                        <br />
 
                         <h3>
-                        {/* <StyledExternalLink href={formlink}>
+                          {/* <StyledExternalLink href={formlink}>
                             Register Here &#10138;
                         </StyledExternalLink> */}
-                        <StyledExternalLink href={formlink}>
-                            Registeration Open Soon
-                        </StyledExternalLink>
+                          <StyledExternalLink href={formlink}>
+                            {linkref}
+                          </StyledExternalLink>
                         </h3>
-
                       </div>
-
-                  </Grid>
-                </div>
-              );
-            })}
-       </div>
+                    </Grid>
+                  </div>
+                );
+              }
+            )}
+          </div>
         </StyledContainer>
       </Section>
     )}
@@ -100,7 +110,7 @@ const UsedBy = () => (
 
 const Grid = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 80px;
   text-align: left;
   align-items: left;
@@ -153,13 +163,13 @@ const StyledContainer = styled(Container)`
   }
 `;
 
- const StyledExternalLink = styled(ExternalLink)`
-   color: inherit;
-   text-decoration: none;
+const StyledExternalLink = styled(ExternalLink)`
+  color: inherit;
+  text-decoration: none;
 
-   &:hover {
-     color: ${props => props.theme.color.register};
-   }
- `;
+  &:hover {
+    color: ${props => props.theme.color.register};
+  }
+`;
 
 export default UsedBy;

@@ -51,7 +51,13 @@ const About = () => (
             <div>
               <h2>Bridging gap between theory and practice</h2>
               <p>
-              Developer Student Clubs are university based community groups for students interested in Google developer technologies. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome. By joining a DSC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community.
+                Developer Student Clubs are university based community groups
+                for students interested in Google developer technologies.
+                Students from all undergraduate or graduate programs with an
+                interest in growing as a developer are welcome. By joining a
+                DSC, students grow their knowledge in a peer-to-peer learning
+                environment and build solutions for local businesses and their
+                community.
               </p>
             </div>
             <Art>
@@ -65,7 +71,9 @@ const About = () => (
             <div>
               <h2>Build good things, together</h2>
               <p>
-              Meet other students on campus interested in developer technologies. All are welcome, including those with diverse backgrounds and different majors.
+                Meet other students on campus interested in developer
+                technologies. All are welcome, including those with diverse
+                backgrounds and different majors.
               </p>
             </div>
           </Grid>
@@ -73,7 +81,9 @@ const About = () => (
             <div>
               <h2>Let's learn new technologies</h2>
               <p>
-              Learn about a wide range of technical topics where new skills are gained through hands-on workshops, in-person training and project building activities.
+                Learn about a wide range of technical topics where new skills
+                are gained through hands-on workshops, in-person training and
+                project building activities.
                 <br />
                 <br />
                 <StyledExternalLink href="https://chat.whatsapp.com/G1UUfs6dv7pBOVyb9F1fuH">

@@ -34,9 +34,7 @@ const Header = () => (
                 Developer Student Clubs
                 <br />
               </h2>
-              <h3>
-              Kalol Institute Of Technology And Research Center
-              </h3>
+              <h3>Kalol Institute Of Technology And Research Center</h3>
               <br />
               <p>
                 <StyledExternalLink href="https://developers.google.com/community/dsc/">

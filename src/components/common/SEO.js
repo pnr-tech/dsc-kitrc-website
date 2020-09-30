@@ -2,11 +2,11 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 const SEO_DATA = {
-  description: 'Official site for Developer Student Clubs KITRC',
-  title: 'DSC KITRC',
+  description: 'Official websitsite of Developer Student Clubs KITRC. Powered By Google Developers',
+  title: 'Developer Student Clubs KITRC',
   url: 'https://dsckitrc.tech/',
   author: 'prajvalraval',
-  keywords: ['dsc', 'google', 'kitrc'],
+  keywords: ['dsc', 'google', 'kitrc', 'developer student clubs', 'kalol institute of technology and research center', 'google developers', 'kirc', 'kalol'],
 };
 
 const SEO = () => {

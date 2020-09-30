@@ -1,26 +1,35 @@
-# gatsby-absurd
+# DEVELOPER STUDENT CLUBS - KITRC
 
-An absurd Gatsby starter. The collection of illustrations, [absurd.design](https://absurd.design/) by [Diana Valeanu](https://twitter.com/diana_valeanu) is a very fascinating and beautiful project with some pretty thoughtful concepts. Experimentation on how that could be put together on a site ended up as this starter.
+![DSC-Fullname](https://user-images.githubusercontent.com/41849970/68694056-72f74200-059e-11ea-85fe-76b37be8e5d5.png)
 
-[Live Demo](https://gatsby-absurd.netlify.com/)
 
-## Installation
+This Website is developed using GatsbyJS and deployed on Netlify.   [![Netlify Status](https://api.netlify.com/api/v1/badges/01d5b321-ca03-4eb0-b326-c2afa8f159c9/deploy-status)](https://app.netlify.com/sites/dsckitrc/deploys)
 
-Install the dependencies:
+## Want To Contribute, Here's How to do it:
 
-### `yarn install`
+### Clone The Repo using the following command:
 
-Run the development server:
+    git clone https://github.com/kalol-institute-of-technology/dsc-kitrc-website
+    
+### Change Directory:
+  
+    cd dsc-kitrc-website
+    
+### Install the dependencies:
 
-### `yarn dev`
+    yarn install
 
-Production build to `/public`:
+### Run the development server:
 
-### `yarn build`
+    yarn dev
 
-Cleanup cache (often fixes misc errors when run before `yarn dev`):
+### Production build to `/public`:
 
-### `yarn clean`
+    yarn build
+
+### Cleanup cache (often fixes misc errors when run before `yarn dev`):
+
+    yarn clean
 
 ## Content
 
