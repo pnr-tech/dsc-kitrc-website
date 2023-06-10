@@ -6,7 +6,7 @@
   "author": "Prajval Raval <ravalprajval@gmail.com>",
   "dependencies": {
     "@svgr/webpack": "^4.1.0",
-    "gatsby": "^2.0.76",
+    "gatsby": "^4.25.7",
     "gatsby-image": "^2.0.20",
     "gatsby-plugin-alias-imports": "^1.0.5",
     "gatsby-plugin-google-analytics": "^2.1.26",
